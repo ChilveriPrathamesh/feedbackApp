@@ -1,0 +1,108 @@
+/* Write your CSS code here. */
+.bg-container {
+  background-image: linear-gradient(to right, #ffeeee, #ffebeb, #ffc0bb);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 40px;
+  width: 300px;
+  padding-right: 60px;
+}
+
+@media screen and (min-width: 768px) {
+  .card-container {
+    width: 500px;
+  }
+}
+
+.review-ques {
+  color: #0f172a;
+  font-size: 16px;
+  text-align: center;
+  font-weight: 600;
+  font-family: 'Roboto';
+}
+
+@media screen and (min-width: 768px) {
+  .review-ques {
+    font-size: 24px;
+  }
+}
+
+.list-container {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  list-style-type: none;
+}
+
+.btn {
+  border: none;
+  background-color: transparent;
+  margin-right: 34px;
+  margin-top: 20px;
+}
+
+.emoji-img {
+  height: 40px;
+  width: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .emoji-img {
+    height: 60px;
+    width: 60px;
+  }
+}
+
+.emoji-description {
+  color: #1e293b;
+  font-size: 12px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .emoji-description {
+    font-size: 16px;
+  }
+}
+
+.list-loveEmoji {
+  text-align: center;
+  list-style-type: none;
+}
+
+.img {
+  height: 30px;
+  width: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .img {
+    height: 50px;
+    width: 50px;
+  }
+}
+
+.feedback-response {
+  font-family: 'Roboto';
+  color: #1e293b;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+@media screen and (min-width: 768px) {
+  .feedback-response {
+    font-size: 16px;
+  }
+}
